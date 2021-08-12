@@ -25,7 +25,7 @@ Une fois que le fichier d'installation a été sourcé.
 rosrun button_gui button_node.py
 rosrun projet_poubelle publish_poubelle.py
 ```
-
+Note : N'oubliez pas de donner le droit d'exécution sur les fichiers
 ## Voir l'état de la poubelle
 ```sh
 rostopic echo /etat_poubelle
