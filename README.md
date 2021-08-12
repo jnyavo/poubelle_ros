@@ -25,3 +25,9 @@ Une fois que le fichier d'installation a été sourcé.
 rosrun button_gui button_node.py
 rosrun projet_poubelle publish_poubelle.py
 ```
+
+## Voir l'état de la poubelle
+```sh
+rostopic echo /etat_poubelle
+```
+
